@@ -15,8 +15,6 @@ Get-ChildItem C:\temp\pcsx2 -Exclude pcsx2.7Z -Filter *pcsx2* | Rename-Item -New
 #Overwrite portable.ini contents
 Set-Content -Path C:\temp\pcsx2\pcsx2latest\portable.ini -Value 'RunWizard=0'
 
-#Clears the backup folder, and backs up your previous install to backup folder
-
 #Copy/Overwrite what is in the emulator folder
 $sourceDirectory  = "c:\temp\pcsx2\pcsx2latest\*"
 $destinationDirectory = "D:\Emulators\PS2\PCSX2"
