@@ -1,2 +1,5 @@
-Hi all, I'm using this repository to store interesting powershell scripts I've put together mainly to keep my emulation software up to date. 
-The objective of these scripts is to provide a one-click solution which can grab the newest download link and overwrite the existing version on the local PC.
+Hi all, I'm using this repository to store interesting powershell scripts to keep my emulation software up to date or complete other management tasks. 
+Currently focusing on a one-click uppdate solution which can grab the newest download link and overwrite the existing version on the local PC. Note: You will need to tweak the directories depending on your hard drive setup. Everyone's will be a little different.
+
+Contributing members:
+u/Davevil_78 - Vita3K, Xenia, and Xenia Canary scripts
