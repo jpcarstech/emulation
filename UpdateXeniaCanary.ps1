@@ -1,4 +1,4 @@
-create folder
+#create folder
 New-Item -Path "c:\temp\" -Name "xenia_canary" -ItemType "directory"
 
 #Download Xenia Canary
